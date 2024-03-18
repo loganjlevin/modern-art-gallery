@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Outfit:wght@100..900&display=swap');
+
+/**************************************/
+/* MARGIN AND PADDING */
+/**************************************/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 50px 20px 5px 20px;
+}
+main.container {
+  margin: 100px 0;
+  padding: 0 20px;
+}
+img {
+  margin-bottom: 15px;
+  width: 100%;
+  object-fit: contain;
+}
+
+#hero img {
+  margin-bottom: 0;
+}
+
+/**************************************/
+/* TYPOGRAPHY */
+/**************************************/
+
+h1,
+h2,
+h3,
+h4,
+button {
+  font-family: 'Big Shoulders Display', sans-serif;
+  font-optical-sizing: auto;
+  color: #151515;
+}
+
+p {
+  font-family: 'Outfit', sans-serif;
+  font-optical-sizing: auto;
+  color: #444444;
+}
+
+/**************************************/
+/* HEADINGS */
+/**************************************/
+.heading-xl {
+  font-size: 96px;
+  line-height: 88px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.heading-l {
+  font-size: 70px;
+  line-height: 70px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.heading-m {
+  font-size: 60px;
+  line-height: 55px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.heading-s {
+  font-size: 50px;
+  line-height: 45px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.heading-xs {
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+/**************************************/
+/* BODY */
+/**************************************/
+.body-m {
+  margin: 50px 0;
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 300;
+}
+
+.body-s {
+  margin: 40px 0;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 300;
+}
+
+.body-xs {
+  margin: 40px 0;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 300;
+}
+/**************************************/
+/* BUTTONS */
+/**************************************/
+button {
+  font-size: 20px;
+  font-weight: 800;
+  width: 204px;
+  height: 72px;
+  border: none;
+  background-color: #151515;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 3.64px;
+}
+
+.button:after {
+  content: url('./assets/icon-arrow-right.svg');
+  display: inline-flex;
+  position: absolute;
+  width: 56px;
+  height: 72px;
+  background-color: #d5966c;
+  justify-content: center;
+  align-items: center;
+}
+
+/**************************************/
+/* BLACK BACKGROUND SECTION */
+/**************************************/
+.black-bg {
+  background-color: #151515;
+}
+
+.black-bg h1 {
+  color: #ffffff;
+}
+
+.black-bg h2 {
+  color: #ffffff;
+}
+
+.black-bg h4 {
+  color: #ffffff;
+}
+
+.black-bg h4 {
+  color: #ffffff;
+}
+
+.black-bg p {
+  color: #ffffff;
+}
+
+/**************************************/
+/* FOOTER */
+/**************************************/
+footer {
+  padding: 50px;
+}
+
+footer img {
+  margin: 0 10px;
+  width: auto;
+}
