@@ -198,7 +198,7 @@ footer img {
     content: '';
     position: absolute;
     height: 800px;
-    width: calc((100vw - 554px) / 2);
+    width: calc((100vw - 555px) / 2);
     background-color: var(--almost-black);
     mix-blend-mode: difference;
   }
